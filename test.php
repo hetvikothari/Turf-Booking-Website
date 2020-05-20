@@ -317,7 +317,7 @@ $name=$_SESSION['username'];
       </div>
     </div>
 
-<!-- Container (Services Section) -->
+<!-- Container (Booking Section) -->
 <div id="booking" class="container-fluid text-center">
   <br><br>
   <p align="center">SELECT SLOT TIMING TO BOOK</p>
@@ -504,7 +504,7 @@ if(mysqli_num_rows($result)>0)
   </div>
   <br><br><br>
 
-<!-- Container (Portfolio Section) -->
+<!-- Container (Instruction Section) -->
 <div id="instructions" class="container-fluid text-center bg-grey">
   <ul style="text-align: center; list-style-position: inside;">
     <li>PLEASE MAKE SURE ONLY ONE MEMBER OF THE TEAM DOES THE BOOKING.</li>
@@ -515,12 +515,12 @@ if(mysqli_num_rows($result)>0)
   <br>
   <br><br>
   <h2>What our students say</h2>
-  <div id="instructions" class="carousel slide text-center" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#instructions" data-slide-to="0" class="active"></li>
-      <li data-target="#instructions" data-slide-to="1"></li>
-      <li data-target="#instructions" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -529,7 +529,7 @@ if(mysqli_num_rows($result)>0)
         <h4>"This is one the easiest way to book turfs and courts inside the campus. "<br><span>Himali Saini, Student, KJSCE</span></h4>
       </div>
       <div class="item">
-        <h4>"Awesome website.Also the turfs and courts are amazing and very well maintained."<br><span>Urvi Bheda, Ex-Student, K.J. Somaiya College of Science and Commerce</span></h4>
+        <h4>"Best courts are avialable free to play for somaiya students.Please make sure to check them out."<br><span>Urvi Bheda, Ex-Student, K.J. Somaiya College of Science and Commerce</span></h4>
       </div>
       <div class="item">
         <h4>"Best courts are avialable free to play for somaiya students.Please make sure to check them out."<br><span>Charmi Kothari, Student, S.K Somaiya College</span></h4>
@@ -547,11 +547,8 @@ if(mysqli_num_rows($result)>0)
     </a>
   </div>
 </div>
-<br><br>
-
-<!-- Container (Pricing Section) -->
+<!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid">
-
   
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
@@ -598,7 +595,7 @@ if(isset($_POST['submit']))
 }
 }
 ?>
-<!-- Container (Contact Section) -->
+<!-- Container (Logout Section) -->
 <div id="logout" class="container-fluid bg-grey">
   <div class="text-center">
     <br><br>
